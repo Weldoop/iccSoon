@@ -5,22 +5,18 @@
     
 
       
-<div class="">
+<div class="w-full h-full bg-black">
     
-    <header class="relative flex items-center 
-            justify-center h-screen mb-12 
-            overflow-hidden">
+
+ 
         
+    
         <video autoplay loop muted
-            class="absolute z-10 w-auto 
-            min-w-full min-h-full max-w-none">
+            class="z-10">
             <source src=
-"../../public/video/ICCComingSoon.mp4"
+"../../public/video/ICCComingSoon.MOV"
                 type="video/mp4"/>
         </video>
-    </header>
-
-
     
 </div>
     <!-- div with a video background -->
@@ -33,6 +29,20 @@
 </template>
 
 <style>
+video {
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	min-width: 100%;
+    min-height: 85%;
+	width: auto;
+	height: 95%;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-71%);
+	
+	transition: 1s opacity;
+}
 
-#videoDiv {width: 50%; height: 50%; position: relative;}
+
+
 </style>
