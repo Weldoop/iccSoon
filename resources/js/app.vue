@@ -14,7 +14,7 @@
         <video autoplay loop muted
             class="z-10">
             <source src=
-"../../public/video/ICCComingSoon.MOV"
+"../../public/video/ICCComingSoon.mp4"
                 type="video/mp4"/>
         </video>
     
