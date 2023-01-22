@@ -37,7 +37,7 @@
             
           <div class="flex flex-col items-center w-full text-lg rounded-md">
 
-          <!-- push -->
+         
             
             <h1 class="items-center font-bold text-green bg-black/60">Thank you for signing up!</h1>
             <!-- join our telegram -->
