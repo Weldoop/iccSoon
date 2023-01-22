@@ -30,10 +30,10 @@ const routes = [
     },
     // catch 404 and redirect to home
     
-    {
-        path: '/:catchAll(.*)',
-        redirect: '/'
-    }
+    // {
+    //     path: '/:catchAll(.*)',
+    //     redirect: '/'
+    // }
 
     
 ]
