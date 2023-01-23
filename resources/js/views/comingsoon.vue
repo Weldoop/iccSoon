@@ -6,21 +6,22 @@
 
 
 
-<div className='absolute min-h-screen min-w-full'>
+
   
-  <div className='flex flex-col -mt-24'> 
-    <video src="../../../public/video/ICCComingSoon.mp4"
+  
+    <video id="videoBG" src="../../../public/video/ICCComingSoon.mp4"
+    class="fixed inset-0 object-cover w-full h-full -mt-20"
     autoPlay  
     loop
     muted
-    className='flex-1 object-contain object-center  ' 
+      
   >Your browser does not support the video tag.</video>
   
- </div>
+ 
 
-</div>
+
    
-    <div class="fixed inset-x-0 mx-72 bottom-56" id="signin-success-message">
+    <div class="fixed inset-x-0 mx-72 bottom-52" id="signin-success-message">
     
         <div v-if=!posted>
             <form @submit.prevent="createUser(form)" class="flex flex-col items-center w-full text-lg rounded-md ">
@@ -78,5 +79,25 @@ const form = reactive({
 
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+#videoBG{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height:auto;
+    
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+    width: auto;
+    height:100%;
+  }
+}
 
 </style>
