@@ -11,7 +11,7 @@
 
   <!-- pusg -->
     <!-- logo -->
-    <div  class="absolute w-[90%] mt-24  ">
+    <div  class="absolute w-[90%] mt-20  ">
             <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
@@ -24,7 +24,7 @@
        
 
           <!-- social icons  -->
-          <div class="flex items-center justify-center w-full -mt-2 space-x-4 ">
+          <div class="flex items-center justify-center w-full space-x-4 ">
             <!-- telegram -->
             <a href="https://www.telegram.com/">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
