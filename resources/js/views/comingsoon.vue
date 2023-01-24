@@ -33,8 +33,8 @@
             <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
               <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
             </a>
-            <a href="https://www.twitter.com/">
-              <img src="https://twitter.com/IceCreamCrypto_" alt="twitter" class="w-8">
+            <a href="https://twitter.com/IceCreamCrypto_/">
+              <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
             <!-- tiktok -->
             <a href="https://www.tiktok.com/">
@@ -68,7 +68,27 @@
             </div>
         </form> 
 
+        <div class="flex items-center justify-center w-full mt-2 space-x-4 ">
+            <!-- telegram -->
+            <a href="https://www.telegram.com/">
+              <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-16 ">
+            </a>
+            <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
+              <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-16 ">
+            </a>
+            <a href="https://twitter.com/IceCreamCrypto_/">
+              <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-16">
+            </a>
+            <!-- tiktok -->
+            <a href="https://www.tiktok.com/">
+              <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-16 ">
+            </a>
+            
+            
+            
+        </div>
 
+     
 
 
   </div>
