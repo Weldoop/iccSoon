@@ -5,9 +5,13 @@
   <!-- background image -->
 
   <img src="../../../public/video/image00001.png" alt="background" class="object-cover w-full h-full ">
+
+  <!-- background video -->
+  
+
   
     <!-- logo -->
-    <div v-if=!posted>
+    <div v-if=!posted class="absolute w-[90%] mt-20 ">
             <form @submit.prevent="createUser(form)" class="flex flex-col items-center w-full text-lg rounded-md ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
