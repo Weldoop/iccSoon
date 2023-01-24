@@ -29,7 +29,7 @@
             <a href="https://www.telegram.com/">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
             </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
               <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
             </a>
             <a href="https://www.twitter.com/">
