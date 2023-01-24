@@ -56,10 +56,10 @@
 
 
 
-<header class="relative flex items-center justify-center h-screen overflow-hidden ">
+<header class="relative flex items-center justify-center h-screen overflow-hidden bg-black ">
   <div class="relative z-30 w-[40%] text-2xl text-white mt-56 rounded-xl">
     
-    <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
+    <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full text-lg rounded-md mt-28 ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
             <button type="submit" class="w-full px-4 py-2 mb-2 text-white rounded-lg bg-lightblue hover:bg-darkblue">Join</button>
@@ -68,7 +68,7 @@
             </div>
         </form> 
 
-        <div class="flex items-center justify-center w-full mt-2 space-x-4 ">
+        <div class="flex items-center justify-center w-full mt-24 space-x-4 ">
             <!-- telegram -->
             <a href="https://www.telegram.com/">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-16 ">
@@ -123,5 +123,9 @@ const form = reactive({
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 
-
+.scale-50 {
+    --tw-scale-x: .4;
+    --tw-scale-y: .4;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 </style>
