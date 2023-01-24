@@ -9,7 +9,7 @@
   <!-- background video -->
   
 
-  
+  <!-- pusg -->
     <!-- logo -->
     <div  class="absolute w-[90%] mt-24  ">
             <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
