@@ -57,7 +57,7 @@
 
 
 <header class="relative flex items-center justify-center h-screen overflow-hidden">
-  <div class="relative z-30 w-[40%] text-2xl text-white mt-44 rounded-xl">
+  <div class="relative z-30 w-[40%] text-2xl text-white mt-56 rounded-xl">
     
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
             
@@ -89,12 +89,13 @@
         </div>
 
      
-
+        
 
   </div>
   <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full scale-50 max-w-none">
     <source src="../../../public/video/ICCComingSoon.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
+  
 </header>
 
 
