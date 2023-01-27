@@ -12,10 +12,9 @@ class EmailController extends Controller
 
     public function index()
     {
+        $emails = Email::all();
         return response()->json([
-            'data' => [
-                'emails' => \App\Models\Email::all(),
-            ],
+            'data' => $emails,
         ]);
     }
 
