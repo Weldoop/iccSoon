@@ -13,7 +13,7 @@
   <!-- pusg -->
     <!-- logo -->
     <div  class="absolute w-[90%] mt-20  ">
-            <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
+        <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
             <button type="submit" class="w-full px-4 py-2 mb-2 text-white rounded-lg bg-lightblue hover:bg-darkblue">Join</button>
@@ -21,6 +21,11 @@
                 <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>    
             </div>
         </form> 
+
+        <div v-else class="flex flex-col items-center w-full mb-4 text-lg rounded-m">
+        <span class="font-bold text-white ">Thank you for joining us</span>
+        <span class="font-bold text-white ">We will be in touch soon!</span>
+        </div>
 
        
 
@@ -52,12 +57,11 @@
 
 <!-- desktop -->
 
-<!-- full screen video  -->
 
 
 
 <header class="relative flex items-center justify-center h-screen overflow-hidden bg-black ">
-  <div class="relative z-30 w-[40%] text-2xl text-white mt-56 rounded-xl">
+  <div class="relative z-30 w-[40%] text-2xl  mt-56 rounded-xl">
     
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full text-lg rounded-md mt-28 ">
             
@@ -66,7 +70,12 @@
             <div v-if="error">
                 <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>    
             </div>
-        </form> 
+    </form> 
+
+    <div v-else class="flex flex-col items-center w-full pb-10 mt-40 text-lg rounded-md">
+        <span class="font-bold text-green bg-black/60">Thank you for joining us!</span>
+    </div>
+
 
         <div class="flex items-center justify-center w-full mt-24 space-x-4 ">
             <!-- telegram -->
@@ -79,7 +88,7 @@
             <a href="https://twitter.com/IceCreamCrypto_/">
               <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-16">
             </a>
-            <!-- tiktok -->
+            <!-- tiktok --> 
             <a href="https://www.tiktok.com/">
               <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-16 ">
             </a>
@@ -92,7 +101,7 @@
         
 
   </div>
-  <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full scale-50 max-w-none">
+  <video autoplay loop muted class="absolute z-10 invisible w-auto min-w-full min-h-full scale-50 md:visible max-w-none">
     <source src="../../../public/video/ICCComingSoon.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
   
