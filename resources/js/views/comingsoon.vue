@@ -5,7 +5,7 @@
 <div class="md:hidden ">
 <div class="flex flex-col items-center justify-center w-full h-full bg-black/60">
 
- <video autoplay loop muted playsinline="true" class="object-cover -z-1">
+ <video autoplay loop muted  class="object-cover -z-1">
     <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
 
