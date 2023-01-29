@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ref } from 'vue';
 
 // axios.defaults.baseURL = 'http://127.0.0.1:8000/api/v1/';
-axios.defaults.baseURL = 'https://icecreamcrypto.com/api/api/v1/';
+axios.defaults.baseURL = 'https://icecreamcrypto.com/api/v1/';
 
 export default function useEmails() {
     
