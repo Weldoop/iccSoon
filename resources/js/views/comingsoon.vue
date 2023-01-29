@@ -97,7 +97,7 @@
 </header>
 <!-- relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible -->
 
-<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 invisible transform -translate-x-1/2 -top-0 h-72 w-72 md:visible left-1/2 ">
+<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 invisible transform -translate-x-1/2 -top-8 h-72 w-72 md:visible left-1/2 ">
   <img src="../../../public/images/image00001.png" alt="" class="absolute z-20 invisible w-24 h-24 transform -translate-x-1/2 bottom-2 md:visible left-1/2">
   <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2 md:visible max-w-none top-1/2 left-1/2">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
