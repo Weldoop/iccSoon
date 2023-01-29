@@ -71,17 +71,17 @@
         <div class="flex items-center justify-center w-full space-x-4 ">
             <!-- telegram -->
             <a href="https://www.telegram.com/">
-              <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-12 ">
+              <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
             </a>
             <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
-              <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-12 ">
+              <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
             </a>
             <a href="https://twitter.com/IceCreamCrypto_/">
-              <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-12">
+              <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
             <!-- tiktok --> 
             <a href="https://www.tiktok.com/">
-              <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-12 ">
+              <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-8 ">
             </a>
             
             
@@ -97,7 +97,7 @@
 </header>
 <!-- relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible -->
 
-<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 invisible transform -translate-x-1/2 -top-8 h-72 w-72 md:visible left-1/2 ">
+<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 invisible transform -translate-x-1/2 -top-12 h-72 w-72 md:visible left-1/2 ">
   <img src="../../../public/images/image00001.png" alt="" class="absolute z-20 invisible w-24 h-24 transform -translate-x-1/2 bottom-2 md:visible left-1/2">
   <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2 md:visible max-w-none top-1/2 left-1/2">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
