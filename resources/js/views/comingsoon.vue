@@ -51,8 +51,8 @@
 
 
 
-<header class="relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible ">
-  <div class="relative z-30 w-[40%] text-2xl  rounded-xl">
+<header class="relative flex items-center justify-center invisible h-screen overflow-hidden scale-50 bg-black md:visible ">
+  <div class="relative z-30 w-[40%] text-2xl  rounded-xl ">
     
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mb-2 text-lg rounded-md mt-52 ">
             
