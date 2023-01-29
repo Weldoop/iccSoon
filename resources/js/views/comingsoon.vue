@@ -51,7 +51,7 @@
 
 
 
-<header class="relative flex items-center justify-center invisible h-screen overflow-hidden scale-50 bg-black md:visible ">
+<header class="relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible ">
   <div class="relative z-30 w-[40%] text-2xl  rounded-xl ">
     
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mb-2 text-lg rounded-md mt-52 ">
@@ -94,7 +94,7 @@
   </div>
   <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64">
   <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 ">
-  <video autoplay loop muted class="absolute z-10 invisible w-auto min-w-full min-h-full scale-45 md:visible max-w-none">
+  <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full scale-45 md:visible max-w-none">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
   
