@@ -1,6 +1,6 @@
 <template>
 
-<!-- mobile view with video  -->
+
 
 <div class="md:hidden ">
 <div class="flex flex-col items-center justify-center w-full h-full bg-black/60">
@@ -24,7 +24,7 @@
         <span class="font-bold text-white ">We will be in touch soon!</span>
         </div>
           <!-- social icons  -->
-          <div class="flex items-center justify-center w-full space-x-4 ">
+          <div class="flex items-center justify-center w-full mt-2 space-x-4 ">
             <!-- telegram -->
             <a href="https://www.telegram.com/">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
@@ -46,16 +46,16 @@
     </div>
 
   <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 w-64 h-64 -mt-10">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 ">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 mb-2 ">
 </div>
 </div>
 
 
 
 <header class="relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible ">
-  <div class="relative z-30 w-[40%] text-2xl  mt-56 rounded-xl">
+  <div class="relative z-30 w-[40%] text-2xl  rounded-xl">
     
-    <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full text-lg rounded-md mt-28 ">
+    <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mb-2 text-lg rounded-md mt-52 ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
             <button type="submit" class="w-full px-4 py-2 mb-2 text-white rounded-lg bg-lightblue hover:bg-darkblue">Join</button>
@@ -69,7 +69,7 @@
     </div>
 
 
-        <div class="flex items-center justify-center w-full mt-24 space-x-4 ">
+        <div class="flex items-center justify-center w-full space-x-4 ">
             <!-- telegram -->
             <a href="https://www.telegram.com/">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-16 ">
@@ -89,10 +89,12 @@
             
         </div>
 
-     
+        
         
 
   </div>
+  <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 mb-12">
   <video autoplay loop muted class="absolute z-10 invisible w-auto min-w-full min-h-full scale-50 md:visible max-w-none">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
