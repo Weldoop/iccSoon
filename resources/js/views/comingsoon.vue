@@ -5,11 +5,7 @@
 <div class="md:hidden ">
 <div class="flex flex-col items-center justify-center w-full h-full bg-black/60">
 
- <video autoplay loop muted  class="object-cover -z-1">
-    <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4" />Your browser does not support the video tag.
-  </video>
-
-  <div  class="absolute w-[90%] mt-32  ">
+   <div  class="absolute w-[90%] mt-32  ">
         <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
@@ -47,6 +43,9 @@
 
   <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 w-64 h-64 -mt-10">
   <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 mb-2 ">
+  <video autoplay loop muted playsinline="true" class="object-cover -z-1" poster="../../../public/videos/ICCComingSoonMobileStill.png">
+    <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4" />Your browser does not support the video tag.
+  </video>
 </div>
 </div>
 
