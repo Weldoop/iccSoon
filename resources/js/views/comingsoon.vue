@@ -92,16 +92,16 @@
         
 
   </div>
-  <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 ">
-  <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full scale-45 md:visible max-w-none">
-    <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
-  </video>
+  
   
 </header>
+<!-- relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible -->
 
-
-
+<img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64 ">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 ">
+  <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2 md:visible max-w-none top-1/2 left-1/2">
+    <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
+  </video>
 
 
 </template>
