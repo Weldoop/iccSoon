@@ -13,6 +13,7 @@ import {createRouter,createWebHistory} from 'vue-router';
 // import Collab from '../js/views/MyAccount.vue';
 // import Rules from '../js/views/MyAccount.vue';
 import comingsoon from '../js/views/comingsoon.vue';
+import Testing from '../js/views/Testing.vue';
 
 
 // push
@@ -20,8 +21,8 @@ const routes = [
     // coming soon route
     {
         path: '/',
-        name: 'comingsoon',
-        component: comingsoon,
+        name: 'Testing',
+        component: Testing,
         meta: {
             requiresAuth: false,
             isGuest: true,
