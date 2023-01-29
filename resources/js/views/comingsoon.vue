@@ -46,7 +46,7 @@
     </div>
 
   <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 w-64 h-64 -mt-10">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 mb-20">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 ">
 </div>
 </div>
 
