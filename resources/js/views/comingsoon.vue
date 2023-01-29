@@ -43,7 +43,7 @@
 
   <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 w-64 h-64 -mt-10">
   <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 mb-2 ">
-  <video autoplay loop muted playsinline="true" class="object-cover -z-1" poster="../../../public/videos/ICCComingSoonMobileStill.png">
+  <video autoplay loop muted playsinline="true" class="object-cover -z-1" >
     <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
 </div>
