@@ -15,7 +15,7 @@ import {createRouter,createWebHistory} from 'vue-router';
 import comingsoon from '../js/views/comingsoon.vue';
 
 
-
+// push
 const routes = [
     // coming soon route
     {
