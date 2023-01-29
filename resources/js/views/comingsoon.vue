@@ -92,8 +92,8 @@
         
 
   </div>
-  <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 mb-12">
+  <img src="../../../public/images/image00002.png" alt="" class="absolute z-20 w-64 h-64 mb-72 -mt-96">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 ">
   <video autoplay loop muted class="absolute z-10 invisible w-auto min-w-full min-h-full scale-50 md:visible max-w-none">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
