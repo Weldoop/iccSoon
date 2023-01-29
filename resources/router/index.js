@@ -21,8 +21,8 @@ const routes = [
     // coming soon route
     {
         path: '/',
-        name: 'Testing',
-        component: Testing,
+        name: 'comingsoon',
+        component: comingsoon,
         meta: {
             requiresAuth: false,
             isGuest: true,
