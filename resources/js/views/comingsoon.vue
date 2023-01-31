@@ -22,13 +22,13 @@
           <!-- social icons  -->
           <div class="flex items-center justify-center w-full mt-2 space-x-4 ">
             <!-- telegram -->
-            <a href="https://www.telegram.com/">
+            <a href="http://T.me/icecreamcryptoclub">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
             </a>
-            <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
+            <a href="https://instagram.com/icecreamcrypto_?igshid=ZDdkNTZiNTM==">
               <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
             </a>
-            <a href="https://twitter.com/IceCreamCrypto_/">
+            <a href="https://twitter.com/IceCreamCrypto_?t=EimG0NdLJIDG3KuJNFDouA&s=09">
               <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
             <!-- tiktok -->
@@ -70,13 +70,13 @@
 
         <div class="flex items-center justify-center w-full space-x-4 ">
             <!-- telegram -->
-            <a href="https://www.telegram.com/">
+            <a href="http://T.me/icecreamcryptoclub">
               <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
             </a>
-            <a href="https://instagram.com/icecreamcrypto_?igshid=YmMyMTA2M2Y=">
+            <a href="https://instagram.com/icecreamcrypto_?igshid=ZDdkNTZiNTM=">
               <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
             </a>
-            <a href="https://twitter.com/IceCreamCrypto_/">
+            <a href="https://twitter.com/IceCreamCrypto_?t=EimG0NdLJIDG3KuJNFDouA&s=09">
               <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
             <!-- tiktok --> 
