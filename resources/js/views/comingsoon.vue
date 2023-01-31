@@ -2,10 +2,10 @@
 
 
 
-<div class="md:hidden ">
+<div class=" md:hidden">
 <div class="flex flex-col items-center justify-center w-full h-full bg-black/60">
 
-   <div  class="absolute w-[90%] mt-32  ">
+   <div  class="absolute w-[90%] mt-32 z-20  ">
         <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
             
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
@@ -23,7 +23,7 @@
           <div class="flex items-center justify-center w-full mt-2 space-x-4 ">
             <!-- telegram -->
             <a href="http://T.me/icecreamcryptoclub">
-              <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 ">
+              <img src="../../../public/images/socials/telegram.png" alt="telegram" class="w-8 z-2 ">
             </a>
             <a href="https://instagram.com/icecreamcrypto_?igshid=ZDdkNTZiNTM==">
               <img src="../../../public/images/socials/instagram.png" alt="instagram" class="w-8 ">
@@ -41,17 +41,17 @@
         </div>
     </div>
 
-  <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 w-64 h-64 -mt-10">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 w-20 h-20 mb-2 ">
-  <video autoplay loop muted playsinline="true" class="object-cover -z-1" >
-    <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4" />Your browser does not support the video tag.
+  <img src="../../../public/images/image00002.png" alt="" class="absolute top-0 z-20 w-64 h-64 -mt-10">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute bottom-0 z-20 w-20 h-20 mb-2 ">
+  <video autoplay loop muted playsinline="true" class="z-10 object-cover" >
+    <source src="../../../public/video/ICCComingSoonMobile.mp4" type="video/mp4"  />Your browser does not support the video tag.
   </video>
 </div>
 </div>
 
 
 
-<header class="relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible ">
+<header class="relative items-center justify-center hidden h-screen overflow-hidden bg-black md:flex ">
   <div class="relative z-30 w-[40%] text-2xl  rounded-xl ">
     
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mb-2 text-lg rounded-md mt-52 ">
@@ -97,9 +97,9 @@
 </header>
 <!-- relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible -->
 
-<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 invisible transform -translate-x-1/2 -top-12 h-72 w-72 md:visible left-1/2 ">
-  <img src="../../../public/images/image00001.png" alt="" class="absolute z-20 invisible w-16 h-16 transform -translate-x-1/2 w-18 bottom-2 md:visible left-1/2">
-  <video autoplay loop muted class="absolute z-10 invisible w-auto max-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2 md:visible max-w-none top-1/2 left-1/2">
+<img src="../../../public/images/image00002.png" alt="" class="absolute z-20 hidden transform -translate-x-1/2 md:block -top-12 h-72 w-72 left-1/2 ">
+  <img src="../../../public/images/image00001.png" alt="" class="absolute z-20 hidden w-16 h-16 transform -translate-x-1/2 md:block w-18 bottom-2 left-1/2">
+  <video autoplay loop muted class="absolute z-10 hidden w-auto max-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2 md:block max-w-none top-1/2 left-1/2">
     <source src="../../../public/video/ICCComingSoonDesktop.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
 
