@@ -7,13 +7,13 @@
 
    <div  class="absolute w-[90%] mt-32 z-20  ">
         <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mt-4 text-lg rounded-md ">
-            
+
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
             <button type="submit" class="w-full px-4 py-2 mb-2 text-white rounded-lg bg-lightblue hover:bg-darkblue">Join</button>
             <div v-if="error">
-                <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>    
+                <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>
             </div>
-        </form> 
+        </form>
 
         <div v-else class="flex flex-col items-center w-full mb-4 text-lg rounded-m">
         <span class="font-bold text-white ">Thank you for joining us</span>
@@ -32,12 +32,12 @@
               <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
             <!-- tiktok -->
-            <a href="https://www.tiktok.com/">
+            <a href="https://www.tiktok.com/@icecreamcrypto">
               <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-8 ">
             </a>
-            
-            
-            
+
+
+
         </div>
     </div>
 
@@ -53,15 +53,15 @@
 
 <header class="relative items-center justify-center hidden h-screen overflow-hidden bg-black md:flex ">
   <div class="relative z-30 w-[40%] text-2xl  rounded-xl ">
-    
+
     <form v-if=!posted @submit.prevent="createUser(form)" class="flex flex-col items-center w-full mb-2 text-lg rounded-md mt-52 ">
-            
+
             <input v-model="form.email" type="email" placeholder="Enter your email" class="w-full p-3 mb-2 text-center bg-white rounded ">
             <button type="submit" class="w-full px-4 py-2 mb-2 text-white rounded-lg bg-lightblue hover:bg-darkblue">Join</button>
             <div v-if="error">
-                <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>    
+                <span class="font-bold text-red bg-black/60"> {{ error.email[0] }}</span>
             </div>
-    </form> 
+    </form>
 
     <div v-else class="flex flex-col items-center w-full pb-10 mt-40 text-lg rounded-md">
         <span class="font-bold text-green bg-black/60">Thank you for joining us!</span>
@@ -79,21 +79,21 @@
             <a href="https://twitter.com/IceCreamCrypto_?t=EimG0NdLJIDG3KuJNFDouA&s=09">
               <img src="../../../public/images/socials/twitter.png" alt="twitter" class="w-8">
             </a>
-            <!-- tiktok --> 
-            <a href="https://www.tiktok.com/">
+            <!-- tiktok -->
+            <a href="https://www.tiktok.com/@icecreamcrypto">
               <img src="../../../public/images/socials/tiktok.png" alt="tiktok" class="w-8 ">
             </a>
-            
-            
-            
+
+
+
         </div>
 
-        
-        
+
+
 
   </div>
-  
-  
+
+
 </header>
 <!-- relative flex items-center justify-center invisible h-screen overflow-hidden bg-black md:visible -->
 
